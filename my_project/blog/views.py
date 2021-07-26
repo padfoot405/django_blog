@@ -71,5 +71,5 @@ class PostUpdateView(LoginRequiredMixin, UserPassesTestMixin, UpdateView):
             return False
 
 
-def about(request):
-    return render(request, 'blog/about.html', {'title':'About'})
+#def about(request):
+ #   return render(request, 'blog/about.html', {'title':'About'})
